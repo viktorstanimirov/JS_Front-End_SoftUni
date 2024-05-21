@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: blueviolet;
+}
+
+#main-title {
+    color: red;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+div {
+    background-color: yellow;
+}
+
+li {
+    list-style-type: lower-greek;
+    color: blue;
+}
