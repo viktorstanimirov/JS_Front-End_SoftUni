@@ -1,0 +1,25 @@
+.text-highlighted {
+    color: rgb(71, 140, 252);
+    font-size: 18px;
+}
+
+#special {
+    padding: 20px;
+    background-color: rgb(248, 195, 40);
+}
+
+input[type="text"].input-text {
+    display: block;
+    border: solid black 2px;
+    margin-bottom: 5px;
+    border-color: rgb(102, 187, 115);
+}
+
+.important-item {
+    color: rgb(84, 175, 195);
+}
+
+.important-font-item {
+    color: rgb(211, 59, 70);
+    font-style: italic;
+}
