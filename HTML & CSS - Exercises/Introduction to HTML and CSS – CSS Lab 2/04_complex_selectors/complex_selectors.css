@@ -1,0 +1,39 @@
+
+nav {
+   margin-bottom: 45px;
+}
+
+li a {
+    color: rgb(21, 0, 128) ;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(134, 19, 14);
+    font-weight: bold;
+    padding: 2px;
+}
+
+article p {
+    margin: 20px;
+    margin-right: 10px;
+    padding-block: 25px ;
+    background: rgb(178, 215, 229);
+}
+
+ span {
+    margin: 20px;
+    margin-right: 10px;
+    padding-block: 25px;
+}
+
+footer {
+    margin: 20px;
+    margin-right: 10px;
+    background-color: rgb(211, 211, 211);
+}
+
+section header, section p  {
+    margin: 20px;
+    margin-right: 10px;s
+}
