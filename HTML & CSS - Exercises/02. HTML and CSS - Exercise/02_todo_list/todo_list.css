@@ -1,0 +1,7 @@
+ol {
+    font-weight: bold;
+}
+
+.done-tasks li {
+    text-decoration: line-through;
+}
