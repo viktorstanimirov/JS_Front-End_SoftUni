@@ -1,0 +1,19 @@
+h2 {
+    margin-top: 0;
+}
+
+header p {
+    color: #6c757d;
+}
+
+span {
+    font-weight: bold;
+}
+
+time {
+    font-style: italic;
+}
+
+p {
+    font-weight: bold;
+}
