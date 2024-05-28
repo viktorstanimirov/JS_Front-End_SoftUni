@@ -1,0 +1,27 @@
+ul  > li {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 8px;
+    
+}
+
+ul :nth-child(2) {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    margin-left: -1em;
+}
+
+li.special + li a {
+    color: green;
+}
+
+h2 ~ p {
+    color:blue;
+}
+
+article p:last-of-type {
+    background: rgb(240, 128, 128)
+}
