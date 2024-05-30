@@ -1,0 +1,9 @@
+article :nth-child(1) {
+    color: white;
+    background: red;    
+}
+
+article :last-child {
+    color: white;
+    background: red;    
+}
