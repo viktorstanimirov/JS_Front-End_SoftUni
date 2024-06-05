@@ -1,0 +1,76 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    font-family: inherit;
+}
+
+p, ol , ul {
+    padding-bottom: 1.5rem;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    margin: 1em 0 0.5em 0;
+    font-family: Georgia;
+}
+
+ul .list-level-one {
+    list-style-type: square;
+}
+
+ul .list-level-two {
+    list-style-type: disc;
+}
+
+ul .list-level-three {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    table-layout: fixed;
+    margin-bottom: 1.5rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td,
+table th {
+	border: 1px solid #CCC;
+	padding: 0.3rem 0.5rem;
+}
+
+table tr:nth-child(odd) td {
+	background: #F1F1F1;
+}
+
+th {
+    text-align: left;
+    background:rgb(197, 197, 197);
+}
+
+.all-blockquote {
+	border-left: 4px solid rgb(221, 221, 221);
+	font-style: italic;
+	margin: 0 0 1.5rem 2rem;
+	padding: 1rem 2rem;
+	position: relative;
+}
+
+.author {
+    text-align: right;
+}
