@@ -12,5 +12,5 @@ function circleArea(input) {
 }
 
 //Test case
-circleArea(5)
-circleArea('name')
+// circleArea(5)
+// circleArea('name')
