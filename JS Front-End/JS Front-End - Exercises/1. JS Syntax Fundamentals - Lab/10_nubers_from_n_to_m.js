@@ -6,5 +6,5 @@ function numbersFrom (m, n) {
 
 
 //Test cases
-numbersFrom(6, 2)
-numbersFrom(4, 1)
+// numbersFrom(6, 2)
+// numbersFrom(4, 1)
