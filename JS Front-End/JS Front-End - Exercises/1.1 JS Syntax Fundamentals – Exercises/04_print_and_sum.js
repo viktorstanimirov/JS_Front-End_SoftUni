@@ -13,6 +13,6 @@ function printAndSum (num1, num2) {
 
 
 //Test case
-printAndSum(5, 10)
+// printAndSum(5, 10)
 // printAndSum(0, 26)
 // printAndSum(50, 60)
