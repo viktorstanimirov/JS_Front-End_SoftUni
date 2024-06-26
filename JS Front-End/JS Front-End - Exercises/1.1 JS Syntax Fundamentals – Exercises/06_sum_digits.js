@@ -9,6 +9,6 @@ function sumDigits(num) {
 }
 
 //Test case
-sumDigits(245678)
-sumDigits(97561)
-sumDigits(543)
+// sumDigits(245678)
+// sumDigits(97561)
+// sumDigits(543)
