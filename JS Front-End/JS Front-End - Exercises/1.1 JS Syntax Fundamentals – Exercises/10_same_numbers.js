@@ -26,5 +26,5 @@ function sameNumbers (number) {
 
 
 //Test case
-sameNumbers(2222222)
-sameNumbers(1234)
+// sameNumbers(2222222)
+// sameNumbers(1234)
