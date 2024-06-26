@@ -11,5 +11,5 @@ function simpleCalculator (num1, operator, num2) {
 
 //Test code
 
-simpleCalculator(5, '+', 10)
-simpleCalculator(25.5, '-', 3)
+// simpleCalculator(5, '+', 10)
+// simpleCalculator(25.5, '-', 3)

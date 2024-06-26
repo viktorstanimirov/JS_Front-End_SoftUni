@@ -13,5 +13,5 @@ function transformToUppercase (input) {
 
 
 //Test code
-transformToUppercase('Hi, how are you?')
-transformToUppercase('hello')
+// transformToUppercase('Hi, how are you?')
+// transformToUppercase('hello')
