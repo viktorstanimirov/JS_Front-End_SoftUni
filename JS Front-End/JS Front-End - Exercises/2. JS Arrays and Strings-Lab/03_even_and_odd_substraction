@@ -1,0 +1,22 @@
+function numberSubtraction (inputArray) {
+    let oddNum = 0
+    let evenNum = 0
+
+    for (let i of inputArray) {
+        if (i % 2 === 0) {
+            oddNum += i
+        } else {
+            evenNum += i
+        }
+    }
+
+    let result = oddNum - evenNum
+
+    console.log(result);
+}
+
+
+//Test case
+// numberSubtraction([1,2,3,4,5,6])
+// numberSubtraction([3,5,7,9])
+// numberSubtraction([2,4,6,8,10])

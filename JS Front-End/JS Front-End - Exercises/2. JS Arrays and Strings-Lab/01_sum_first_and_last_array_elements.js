@@ -7,6 +7,6 @@ function sumArrayElements (input) {
 
 
 //Test code
-sumArrayElements([20, 30, 40])
-sumArrayElements([10, 17, 22, 33])
-sumArrayElements([11, 58, 69])
+// sumArrayElements([20, 30, 40])
+// sumArrayElements([10, 17, 22, 33])
+// sumArrayElements([11, 58, 69])
