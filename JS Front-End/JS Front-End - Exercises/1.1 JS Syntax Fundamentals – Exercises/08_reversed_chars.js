@@ -1,5 +1,5 @@
-function reversedChars(first, secound, third) {
-    console.log(`${third} ${secound} ${first}`);
+function reversedChars(first, second, third) {
+    console.log(`${third} ${second} ${first}`);
 }
 
 //Test case

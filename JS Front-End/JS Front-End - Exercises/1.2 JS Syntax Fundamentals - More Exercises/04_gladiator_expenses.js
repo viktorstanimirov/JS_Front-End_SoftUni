@@ -1,4 +1,4 @@
-function gladiatorExpenses(losts, helmetPrice, swordPrice, shieldPrice, armorPrice) {
+function gladiatorExpenses(lost, helmetPrice, swordPrice, shieldPrice, armorPrice) {
     let fightNum = 0
 
     let helmet = 0
@@ -6,7 +6,7 @@ function gladiatorExpenses(losts, helmetPrice, swordPrice, shieldPrice, armorPri
     let shield = 0
     let armor = 0
 
-    for (let i=1; i < losts + 1; i++) {
+    for (let i=1; i < lost + 1; i++) {
         fightNum += 1
 
         if (i % 2 === 0 && i % 3 === 0) {
@@ -36,4 +36,4 @@ function gladiatorExpenses(losts, helmetPrice, swordPrice, shieldPrice, armorPri
 
 //Test code
 // gladiatorExpenses(7, 2, 3, 4, 5)
-gladiatorExpenses(23, 12.50, 21.50, 40, 200)
+// gladiatorExpenses(23, 12.50, 21.50, 40, 200)

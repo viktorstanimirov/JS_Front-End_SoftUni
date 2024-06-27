@@ -1,8 +1,8 @@
 function fruitPrice (fruit, weight, price) {
-    let weithInKg = weight / 1000 ;
-    let totalPrice = (weithInKg * price);
+    let weighInKg = weight / 1000 ;
+    let totalPrice = (weighInKg * price);
     
-    console.log(`I need $${totalPrice.toFixed(2)} to buy ${weithInKg.toFixed(2)} kilograms ${fruit}.`);
+    console.log(`I need $${totalPrice.toFixed(2)} to buy ${weighInKg.toFixed(2)} kilograms ${fruit}.`);
 }
 
 //Test case

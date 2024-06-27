@@ -11,14 +11,14 @@ function roadRadar(speed, area) {
         console.log(`Driving ${speed} km/h in a ${areas[area]} zone`)
     
     }else {
-        draivingStatus = 'reckless driving'
+        drivingStatus = 'reckless driving'
     
         if (speed <= areas[area] + 20 ) {
-            draivingStatus = 'speeding'
+            drivingStatus = 'speeding'
         } else if (speed <= areas[area] + 40 ) {
-            draivingStatus = 'excessive speeding'
+            drivingStatus = 'excessive speeding'
         }
-        console.log(`The speed is ${speed - areas[area]} km/h faster than the allowed speed of ${areas[area]} - ${draivingStatus}`);
+        console.log(`The speed is ${speed - areas[area]} km/h faster than the allowed speed of ${areas[area]} - ${drivingStatus}`);
 
     }
            
