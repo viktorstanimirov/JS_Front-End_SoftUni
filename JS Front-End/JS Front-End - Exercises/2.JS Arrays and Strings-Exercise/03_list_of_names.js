@@ -11,4 +11,4 @@ function listOfStrings(inputArray) {
 
 //Test code
 
-listOfStrings(["John", "Bob", "Christina", "Ema"])
+// listOfStrings(["John", "Bob", "Christina", "Ema"])
