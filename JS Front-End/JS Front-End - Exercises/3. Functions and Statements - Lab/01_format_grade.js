@@ -30,4 +30,4 @@ function formatGrade(grade) {
 // Test code
 // formatGrade(3.33)
 // formatGrade(4.50)
-formatGrade(2.90)
+// formatGrade(2.90)
