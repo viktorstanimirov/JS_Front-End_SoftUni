@@ -7,6 +7,6 @@ function uppercaseSplitter(text) {
 }
 
 //Test code
-uppercaseSplitter('SplitMeIfYouCanHaHaYouCantOrYouCan')
-uppercaseSplitter('HoldTheDoor')
-uppercaseSplitter('ThisIsSoAnnoyingToDo')
+// uppercaseSplitter('SplitMeIfYouCanHaHaYouCantOrYouCan')
+// uppercaseSplitter('HoldTheDoor')
+// uppercaseSplitter('ThisIsSoAnnoyingToDo')
