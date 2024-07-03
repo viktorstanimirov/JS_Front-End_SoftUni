@@ -11,7 +11,7 @@ function simpleCalculator (num1, num2, operator) {
 
 
 //Test code
-simpleCalculator(5, 5, 'multiply')
-simpleCalculator(40, 8, 'divide')
-simpleCalculator(12, 19, 'add')
-simpleCalculator(50, 13, 'subtract')
+// simpleCalculator(5, 5, 'multiply')
+// simpleCalculator(40, 8, 'divide')
+// simpleCalculator(12, 19, 'add')
+// simpleCalculator(50, 13, 'subtract')
