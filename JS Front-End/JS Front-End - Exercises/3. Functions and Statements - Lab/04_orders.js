@@ -11,5 +11,5 @@ function orders (product, quantity) {
 }
 
 //Test code
-orders("water", 5)
-orders("coffee", 2)
+// orders("water", 5)
+// orders("coffee", 2)
