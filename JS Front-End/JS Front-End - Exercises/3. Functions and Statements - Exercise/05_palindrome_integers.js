@@ -2,12 +2,11 @@ function palindromeIntegers(inputArray) {
     let inputStr = inputArray.toString().split(',');
 
     for (let num of inputStr) {
-        let reverseStr = num.split('').reverse().join('')
+        let reverseStr = num.split('').reverse().join('');
 
         if (num == reverseStr) {
             console.log('true');
-        }
-        else {
+        } else {
             console.log('false');
         }
     }
