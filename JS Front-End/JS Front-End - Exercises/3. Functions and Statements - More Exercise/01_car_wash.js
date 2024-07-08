@@ -16,7 +16,6 @@ function carWash(commandsArray) {
 }
 
 
-
 //Test code
 
 // carWash(['soap', 'soap', 'vacuum cleaner', 'mud', 'soap', 'water'])
