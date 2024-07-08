@@ -9,14 +9,15 @@ function carWash(commandsArray) {
     }
 
     for (let command of commandsArray) {
-        carCleaned += commands[command](carCleaned)
+        carCleaned = commands[command](carCleaned)
     }
 
-    console.log(carCleaned);
+    console.log(`The car is ${carCleaned.toFixed(2)}% clean.`);
 }
 
 
 
 //Test code
 
-carWash(['soap', 'soap', 'vacuum cleaner', 'mud', 'soap', 'water'])
+// carWash(['soap', 'soap', 'vacuum cleaner', 'mud', 'soap', 'water'])
+// carWash(["soap", "water", "mud", "mud", "water", "mud", "vacuum cleaner"])
