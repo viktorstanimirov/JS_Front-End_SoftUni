@@ -10,5 +10,5 @@ function personInfo(firstName, lastName, age) {
 
 //Test code
 
-console.log(personInfo("Peter", "Pan", "20"));
-console.log(personInfo("George", "Smith", "18"));
+// console.log(personInfo("Peter", "Pan", "20"));
+// console.log(personInfo("George", "Smith", "18"));
