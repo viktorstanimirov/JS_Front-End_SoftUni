@@ -11,5 +11,5 @@ function convertToJson(firstName, lastName, hairColor) {
 
 
 //Test case:
-convertToJson('George', 'Jones', 'Brown')
+// convertToJson('George', 'Jones', 'Brown')
 // convertToJson('Peter', 'Smith', 'Blond')
