@@ -26,4 +26,4 @@ function townInfo(strArray) {
 //     ]
 // )
 
-townInfo(['Plovdiv | 136.45 | 812.575'])
+// townInfo(['Plovdiv | 136.45 | 812.575'])
