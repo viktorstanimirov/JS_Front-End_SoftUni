@@ -13,10 +13,6 @@ function employees(inputArray) {
 
 }
 
-
-
-
-
 //Test code:
 // employees(
 //     [
