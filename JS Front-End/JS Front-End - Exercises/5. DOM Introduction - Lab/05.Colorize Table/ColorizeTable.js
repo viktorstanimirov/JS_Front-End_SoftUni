@@ -4,6 +4,4 @@ function colorize() {
     for (const trElement of tableElements) {
         trElement.style.backgroundColor = 'teal';
     }
-
-
 }
