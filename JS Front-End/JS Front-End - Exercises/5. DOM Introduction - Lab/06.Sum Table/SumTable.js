@@ -13,5 +13,4 @@ function sumTable() {
         }
     }
     resultElement.textContent = sum;
-    console.log(resultElement);
 }
