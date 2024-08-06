@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px/1.5;
+  font-family: 'Margarine ';
+}
+
+body {
+  font-family: 'Margarine';
+  background-color: #fdeee2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.profile,
+.work-experience {
+  background-color: #fff0e4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-left: 1em;
+}
+
+.profile {
+  width: 300px;
+}
+
+.profile h2 {
+  margin-top: 0;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-info img {
+  margin-right: 10px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.skills {
+  list-style: none;
+  padding-bottom: 1em;
+}
+
+.skills li {
+  margin-bottom: 10px;
+  padding-bottom: 1em;
+}
+
+.skill-bar {
+  background-color: #fff0e4;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+  position: relative;
+}
+
+.skill-level {
+  background-color: #3498db;
+  height: 100%;
+  position: relative;
+}
+
+.skill-percentage {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-weight: bold;
+}
+.work-experience h2 {
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #716b65;
+  padding-bottom: 1em;
+}
+
+.job p {
+  margin: 5px 0;
+}
+
+.job p:nth-last-child(odd) {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+#last-p {
+  border-bottom: none;
+}
+.job p i {
+  color: #489ee6;
+  padding-bottom: 2px;
+}
+
+.fa-solid,
+.fas {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: #489ee6;
+  padding-right: 10px;
+}
+
+.contact-info li {
+  text-align: left;
+}
