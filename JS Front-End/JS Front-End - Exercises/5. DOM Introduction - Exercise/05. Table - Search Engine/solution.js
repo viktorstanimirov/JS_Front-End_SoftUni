@@ -14,9 +14,7 @@ function solve() {
          if (element.textContent.includes(searchedValueEl.value)) {
             element.parentElement.className = 'select'
          }
-
       }
       searchedValueEl.value = '';
    }
-
 }
