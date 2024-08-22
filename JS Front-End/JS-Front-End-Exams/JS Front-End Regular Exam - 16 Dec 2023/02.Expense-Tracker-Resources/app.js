@@ -54,11 +54,11 @@ function solve() {
 
         const editButtonEl = document.createElement('button');
         editButtonEl.classList.add('btn-edit');
-        editButtonEl.textContent = 'Edit';
+        editButtonEl.textContent = 'edit';
 
         const okButtonEl = document.createElement('button');
         okButtonEl.classList.add('btn-ok');
-        okButtonEl.textContent = 'Ok';
+        okButtonEl.textContent = 'ok';
 
         const divEl = document.createElement('div');
         divEl.classList.add('buttons');
@@ -80,9 +80,11 @@ function solve() {
 
         okButtonEl.addEventListener('click', () => {
             addButtonEl.disabled = false;
+            previewListEl.removeChild(liElement);
+            divEl.remove();
             editButtonEl.remove();
             okButtonEl.remove();
-            previewListEl.removeChild(liElement);
+
             expenseListEl.appendChild(liElement);
         });
 
@@ -90,6 +92,6 @@ function solve() {
     }
 
     function deleteAllExpensesHandler() {
-        expenseListEl.innerHTML = '';
+        location.reload();
     }
 }
