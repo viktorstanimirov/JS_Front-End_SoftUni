@@ -41,6 +41,8 @@ async function loadMealsHandler() {
     divMealEl.innerHTML = '';
 
     Object.values(response).forEach(meal => {
+        console.log(meal);
+
         const divMealsListElements = document.createElement('div');
         divMealsListElements.className = 'meal';
         divMealsListElements.id = meal._id;
@@ -90,7 +92,7 @@ function changeMealHandler(mealId, meal) {
     addMealButtonEl.disabled = true;
 }
 
-async function editMealHandler() {
+async function editMealHandler(meal) {
     if (!currentMealId) {
         console.error('No meal selected for editing');
         return;
