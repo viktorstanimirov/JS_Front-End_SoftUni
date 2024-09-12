@@ -118,16 +118,14 @@ async function editMealHandler() {
 }
 
 async function deleteMealHandler(mealId) {
-    try {
-        await fetch(`${BASE_URL}/${mealId}`, {
-            method: 'DELETE',
-        });
 
-        const mealElement = document.getElementById(mealId);
-        if (mealElement) mealElement.remove();
-    } catch (error) {
-        console.error('Error deleting meal:', error);
-    }
+    await fetch(`${BASE_URL}/${mealId}`, {
+        method: 'DELETE'
+    });
+
+    divMealEl.removeChild(document.getElementById(mealId));
+
+    loadMealsHandler();
 }
 
 function clearInputFields() {
